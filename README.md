@@ -55,6 +55,7 @@ Make sure you have the following installed on your system:
 ```bash
 git clone https://github.com/YOUR_USERNAME/IAU-CourseAdvisor-Bot.git
 cd IAU-CourseAdvisor-Bot
+```
 
 ### 📦 2. Install Dependencies
 
