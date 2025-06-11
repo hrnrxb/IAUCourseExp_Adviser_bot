@@ -1,6 +1,6 @@
 # 📚 IAU Course Advisor Bot (Tajrobiat Chatbot)
 
-An interactive AI-powered chatbot that helps students at Islamic Azad University choose the best professors and courses — based on **real student reviews** collected from the [@IAUCourseExp](https://t.me/IAUCourseExp) Telegram channel. 🤖✨
+An interactive AI-powered chatbot that helps students at Islamic Azad University Of shiraz choose the best professors and courses — based on **real student reviews** collected from the [@IAUCourseExp](https://t.me/IAUCourseExp) Telegram channel. 🤖✨
 
 ---
 
