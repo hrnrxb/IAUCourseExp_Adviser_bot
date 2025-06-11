@@ -61,26 +61,36 @@ cd IAU-CourseAdvisor-Bot
 
 #### Option A: Direct install
 
-pip install -r requirements.txt   `
+```bash
+pip install -r requirements.txt
+```
 
 #### Option B: (Recommended) Using a virtual environment
 
 # Create virtual environment  
 
+```bash
 python -m venv venv  
+```
 
 # Activate the environment  
 
+```bash
 source venv/bin/activate          # On macOS/Linux  
 venv\Scripts\activate             # On Windows  
+```
 
 # Install required packages  
 
+```bash
 pip install -r requirements.txt   
+```
 
 ### ▶️ 3. Run the Chatbot Locally
 
+```bash
 python app.py   
+```
 
 After a few seconds, a Gradio web interface will open in your browser (or show you a localhost link).
 
