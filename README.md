@@ -17,7 +17,7 @@ It instantly searches a **vectorized database** of real student experiences and 
 
 ## 🚀 Live Demo
 
-Try the beta version now on Hugging Face Spaces:  
+Try the beta version now on Hugging Face Space:  
 👉 [Test the Bot](https://huggingface.co/spaces/IAUCourseExp/Tajrobiat_Bot)
 
 ---
