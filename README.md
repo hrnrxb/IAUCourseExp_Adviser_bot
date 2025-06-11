@@ -76,7 +76,9 @@ python -m venv venv
 ##### Activate the environment  
 
 ```bash
-source venv/bin/activate          # On macOS/Linux  
+source venv/bin/activate          # On macOS/Linux
+```
+```bash  
 venv\Scripts\activate             # On Windows  
 ```
 
