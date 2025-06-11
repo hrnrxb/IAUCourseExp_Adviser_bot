@@ -34,10 +34,23 @@ You can explore the dataset used for training the chatbot here:
 
 ## 🧠 Tech Stack
 
-- 🔎 **FAISS**: Vector similarity search engine
-- 💬 **Transformers**: for embedding questions and texts
-- 🧰 **Gradio UI**: to provide a user-friendly chat interface
-- 🗃️ **Telegram Data**: Reviews from over 1000+ real students
+This project integrates modern NLP and interactive web technologies to address a real-world gap: **lack of centralized and accessible student feedback** during course registration at universities.
+
+---
+
+- 🔎 **FAISS (Facebook AI Similarity Search)**  
+Used to build a fast, scalable vector search engine for student reviews. Traditional keyword search (like Ctrl+F) is not effective for understanding **semantic similarity** in informal, Persian-language Telegram comments. FAISS enables approximate nearest neighbor search over dense sentence embeddings, providing highly relevant matches even with vague user questions.
+
+- 💬 **Transformers (Sentence Embeddings with BERT-like models)**  
+To turn both user questions and student reviews into comparable vector representations, we use pretrained language models from Hugging Face Transformers. This allows the chatbot to semantically understand queries like _"How is Dr. X for Data Structures?"_ and find matching content, even if phrased differently.
+
+- 🧰 **Gradio UI**  
+Gradio provides an intuitive and lightweight interface for interacting with the chatbot. It allows students to easily input questions and receive answers in a clean web app — without needing to install anything locally or know how the backend works. Perfect for public testing and non-technical users.
+
+- 🗃️ **Telegram Data (Curated Student Reviews)**  
+The dataset consists of real-world experiences from students at Islamic Azad University of Shiraz, collected and organized from a public Telegram channel with over 1000 messages. Each review includes metadata like course name, instructor name, and sometimes emotional tone, making it ideal for **real-life NLP prototyping** in low-resource Persian contexts.
+
+This combination of tools allows the bot to act as a **semantic bridge** between vague human queries and fragmented student feedback — filling a critical gap in how students access peer-generated course evaluations during unit selection periods.
 
 ---
 
