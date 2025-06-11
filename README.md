@@ -6,7 +6,7 @@ An interactive AI-powered chatbot that helps students at Islamic Azad University
 
 ## 🔍 What It Does
 
-This bot lets students ask questions **like**:
+This bot lets students ask question**s** **like**:
 
 > "How is Dr. X for Data Structures?"
 > 
