@@ -10,6 +10,7 @@ This bot lets students ask questions like:
 
 > "How is Dr. X for Data Structures?"  
 > "Any reviews about Digital Logic class?"
+> 
 > "Sort best to worst professors of fuzzy system for me"  
 
 It instantly searches a **vectorized database** of real student experiences and returns relevant, cited feedback from the Telegram channel.
