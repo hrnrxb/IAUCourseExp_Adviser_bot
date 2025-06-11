@@ -67,20 +67,20 @@ pip install -r requirements.txt
 
 #### Option B: (Recommended) Using a virtual environment
 
-# Create virtual environment  
+##### Create virtual environment  
 
 ```bash
 python -m venv venv  
 ```
 
-# Activate the environment  
+##### Activate the environment  
 
 ```bash
 source venv/bin/activate          # On macOS/Linux  
 venv\Scripts\activate             # On Windows  
 ```
 
-# Install required packages  
+##### Install required packages  
 
 ```bash
 pip install -r requirements.txt   
