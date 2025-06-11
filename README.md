@@ -60,15 +60,26 @@ cd IAU-CourseAdvisor-Bot
 
 #### Option A: Direct install
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   bashCopyEditpip install -r requirements.txt   `
+pip install -r requirements.txt   `
 
 #### Option B: (Recommended) Using a virtual environment
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   bashCopyEdit# Create virtual environment  python -m venv venv  # Activate the environment  source venv/bin/activate          # On macOS/Linux  venv\Scripts\activate             # On Windows  # Install required packages  pip install -r requirements.txt   `
+# Create virtual environment  
+
+python -m venv venv  
+
+# Activate the environment  
+
+source venv/bin/activate          # On macOS/Linux  
+venv\Scripts\activate             # On Windows  
+
+# Install required packages  
+
+pip install -r requirements.txt   
 
 ### ▶️ 3. Run the Chatbot Locally
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   bashCopyEditpython app.py   `
+python app.py   
 
 After a few seconds, a Gradio web interface will open in your browser (or show you a localhost link).
 
